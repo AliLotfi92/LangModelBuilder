@@ -45,5 +45,5 @@ bpe_tokenizer = train_bpe_tokenizer(corpus_files, special_tokens=["[UNK]", "[CLS
 bpe_tokenizer.save("trained_bpe_tokenizer.json")
 
 # it's essential to see how you words have been tokenized
-encoded_output = bpe_tokenizer.encode("Hello, world!")
+encoded_output = bpe_tokenizer.encode("hello, world!")
 print(encoded_output.tokens)
