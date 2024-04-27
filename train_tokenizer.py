@@ -46,4 +46,4 @@ bpe_tokenizer.save("trained_bpe_tokenizer.json")
 
 # it's essential to see how you words have been tokenized
 encoded_output = bpe_tokenizer.encode("Hello, world!")
-print(encoded_output.tokens)
+print(bpe_tokenizer.get_vocab())
