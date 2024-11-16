@@ -1,7 +1,7 @@
 
 # Custom Language Model Builder
 
-Repo for tutorial for creating a language model from scratch:  https://substack.com/inbox/post/143369064. It includes scripts for training a tokenizer, setting up a transformer encoder, and running the training process on your dataset.
+Repo for tutorial on creating a language model from scratch:  https://substack.com/inbox/post/143369064. It includes scripts for training a tokenizer, setting up a transformer encoder, and running the training process on your dataset.
 
 ## Features
 
